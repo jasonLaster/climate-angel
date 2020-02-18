@@ -1,3 +1,9 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+console.log(`>>> env`, process.env.NODE_ENV, process.env.AIRTABLE_API_KEY)
+
 module.exports = {
   siteMetadata: {
     title: `Climate Angel`,
@@ -14,6 +20,21 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.AIRTABLE_API_KEY,
+        tables: [
+          {
+            baseId: `appd8u2wrVPQVl7R4`,
+            tableName: `Angels`,
+            tableView: `List`,
+            mapping: { Attachments: `fileNode` },
+            tableLinks: [],
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

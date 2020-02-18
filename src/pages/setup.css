@@ -1,0 +1,93 @@
+.setup {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.setup .toc {
+  min-width: 300px;
+}
+
+.setup a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+.setup a:visited {
+  color: rebeccapurple;
+}
+
+.setup .toc {
+  font-family: Helvetica;
+  border-right: 1px solid #efefef;
+  position: relative;
+}
+
+.setup .toc .wrapper {
+  position: sticky;
+  top: 0px;
+  margin: 20px;
+  margin-top: 0;
+  padding-right: 20px;
+  padding-top: 2rem;
+}
+
+.setup .toc:first-child {
+  margin-top: 0;
+}
+
+.setup .toc h4 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+.setup .toc li {
+  list-style: none;
+}
+
+.setup .content {
+  padding-left: 60px;
+  margin-top: 2rem;
+  padding-bottom: 1rem
+
+}
+
+.setup .content h2:first-child {
+  margin-top: 0
+}
+
+.setup img {
+  border-left: 4px solid hsla(270, 90%, 80%, 1);
+  margin-left: 50px;
+  padding-left: 20px;
+  height: 70%;
+  margin-bottom: 80px;
+}
+
+.setup h3 {
+  margin-top: 20px
+}
+
+.setup h2 {
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+.setup h2, .setup h3 {
+  color: rebeccapurple;
+}
+
+.setup .next {
+  margin-top: 60px;
+}
+
+description {
+  background: hsla(270, 76%, 83%, 0.16);
+  padding: 1rem 2rem;
+  font-family: Helvetica;
+  /* background-color: white; */
+  display: block;
+  margin-bottom: 1rem;
+  color: hsla(270, 28%, 40%, 1);
+  border-radius: 4px;
+}

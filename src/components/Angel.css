@@ -1,0 +1,52 @@
+
+.angels {
+  display: flex;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.angel {
+  margin: 1rem;
+  padding: 15px;
+  border-radius: 4px;
+  width: 200px;
+  min-width: 207px;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.angel img {
+  height: 150px;
+}
+
+.angel h3 {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.angel a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  font-family: Helvetica;
+  display: flex;
+  line-height: 2rem;
+  width: 160px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.angel a:hover {
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #efefef;
+}
+.angel a svg {
+  margin-right: 5px;
+}

@@ -1,13 +1,22 @@
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow: hidden;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
+
+main {
+  flex-grow: 1;
+}
+
 article,
 aside,
 details,
@@ -187,7 +196,6 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 * {
   box-sizing: inherit;
@@ -619,4 +627,101 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page {
+  flex-grow: 1;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  color: white;
+  background:  linear-gradient(255.49deg, rgba(184, 43, 250, 0.336) 0%, rgba(96, 54, 137, 0.8) 98.52%), linear-gradient(104.45deg, #8E5EBF 0.29%, rgba(102, 51, 153, 0.77) 100%);
+}
+
+header .nav {
+  background: rgba(255, 255, 255, 0.2);
+  line-height: 3rem;
+  height: 3rem;
+
+}
+
+header .nav .wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+header .links {
+  display: flex;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+header .links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none
+}
+
+header .body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+}
+
+header h2 {
+  align-self: center;
+  display: flex;
+  width: 600px;
+  font-size: 1.3rem;
+}
+
+header .description {
+  margin-left: 60px;
+  font-size: 1rem;
+  font-family: helvetica;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+header .description.center {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 40px;
+  border-top: 1px solid #efefef;
+  background: white;
+}
+
+.home.page {
+  background: #efefef;
+  overflow: hidden;
 }

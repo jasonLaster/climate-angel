@@ -2,20 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+const Header = ({ siteTitle, headerContent, activePage }) => (
+  <header>
+
+    <div className="nav">
+    <div className="wrapper">
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -27,6 +18,16 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <div className="links">
+        <a href="/setup-1">Getting Setup</a>
+        
+      </div>
+    </div>
+    </div>
+
+    <div className="body">
+      {activePage && <h2>{activePage}</h2>}
+      <div className={`description ${!activePage && 'center'}`}>{headerContent}</div>
     </div>
   </header>
 )
