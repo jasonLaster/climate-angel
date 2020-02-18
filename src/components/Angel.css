@@ -4,14 +4,16 @@
   max-width: 1000px;
   flex-wrap: wrap;
   margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .angel {
   margin: 1rem;
   padding: 15px;
   border-radius: 4px;
-  width: 200px;
-  min-width: 207px;
+  width: 180px;
+
   background: white;
   display: flex;
   align-items: center;
@@ -26,6 +28,8 @@
 .angel h3 {
   font-size: 1rem;
   margin: 1rem 0;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .angel a {

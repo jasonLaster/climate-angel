@@ -27,7 +27,7 @@ function useFetchAngels() {
               Attachments {
                 localFiles {
                   childImageSharp {
-                    fixed(width: 160, height: 150, fit: CONTAIN, background: "white") {
+                    fixed(width: 140, height: 140, fit: CONTAIN, background: "white") {
                       ...GatsbyImageSharpFixed
                     }
                   }
