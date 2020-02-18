@@ -1,0 +1,10 @@
+
+.content {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+.content h2, .content h3 {
+  color: rebeccapurple;
+  margin-top: 4rem;
+}

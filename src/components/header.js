@@ -20,7 +20,7 @@ const Header = ({ siteTitle, headerContent, activePage }) => (
       </h1>
       <div className="links">
         <a href="/setup-1">Getting Setup</a>
-        
+        {false && <a href="/faq">FAQ</a>}
       </div>
     </div>
     </div>
