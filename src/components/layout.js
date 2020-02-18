@@ -29,6 +29,10 @@ const Layout = ({ children, headerContent, activePage, page }) => {
         <Header siteTitle={data.site.siteMetadata.title} activePage={activePage} headerContent={headerContent} />
         <main>{children}</main>
         <footer>
+          <div class="wrapper">
+            <a href="https://github.com/jasonlaster/climate-angel">Contribute</a>
+            <a href="mailto:jason.laster.11@gmail.com">Contact</a>  
+          </div>
         </footer>
       </div>
     </>

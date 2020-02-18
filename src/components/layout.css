@@ -51,6 +51,9 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  font-family: helvetica;
+  text-decoration: none;
+  color: rebeccapurple;
 }
 a:active,
 a:hover {
@@ -658,7 +661,6 @@ header .nav {
   background: rgba(255, 255, 255, 0.2);
   line-height: 3rem;
   height: 3rem;
-
 }
 
 header .nav .wrapper {
@@ -717,11 +719,35 @@ header .description.center {
 
 footer {
   height: 40px;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #ccc;
   background: white;
+  line-height: 40px;
+}
+
+footer .wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  margin-left: 15px;
+  color: #555;
 }
 
 .home.page {
   background: #efefef;
-  overflow: hidden;
+}
+
+
+main > h3 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #afafaf;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }

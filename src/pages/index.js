@@ -12,9 +12,8 @@ import SEO from "../components/seo"
     //   <li>Invest alongside climate angels</li>
     // <Link to="/page-2/">Getting Started</Link>
 
-
-const IndexPage = () => {
-  const {angels} = useStaticQuery(graphql`
+function useFetchAngels() {
+  return useStaticQuery(graphql`
     query AngelsQuery {
       angels: allAirtable {
         edges {
@@ -40,6 +39,10 @@ const IndexPage = () => {
       }
     }
   `)
+}
+
+const IndexPage = () => {
+  const { angels } = useFetchAngels()
 
   const headerContent = <>
     <p>Climate change is triggering the largest economic transformation since the industrial revolution. Startups are pioneering break throughs in clean energy, agriculture, transportation at an incredible pace. </p>
@@ -48,6 +51,7 @@ const IndexPage = () => {
 
   return <Layout page="home" headerContent={headerContent}>
     <SEO title="Home" />
+    <h3>Angel Investors</h3>
     <div className="angels">
       {angels.edges.map(angel => <Angel angel={angel.node.data} />)}
     </div>
