@@ -8,8 +8,23 @@ export default () => (
   <Setup>
     <h2 id="become-an-investor"> Become an Investor</h2>
 
+    <p>
+    Angel investing is inherently risky.
+    For this reason, investors must meet either an income or asset criteria &nbsp;
+    <a href="https://angel.co/help/accreditation/what-is-an-accredited-investor">link</a>.</p>
+
+
+    <p>Investing early can also be satisfying.
+    In many cases, you'll see companies grow and become large players in their field.</p>
+
+    <p>Angel investing can become a portion of your investment portfolio and can have an impact on the world. </p>
+
+
     <h3 id="create-account">1. Create an Angellist account</h3>
-    <p>The first step to creating an account is clicking on the    <a href="angellist.com">Join page</a> in the top right.</p>
+    <p>
+     <a href="https://angel.co/invest/start">Angellist</a> is the largest platform for angel investing. The first step to creating an account is clicking on the
+     <a href="angellist.com">Join </a> page in the top right.
+    </p>
     <Image alt="Gatsby in Space" filename="sign-up.png" />
 
     <h3 id="apply-to-be-an-investor">2. Apply to become an investor</h3>
@@ -19,7 +34,6 @@ export default () => (
 
 
     <h3 id="accredidation">3. Provide accredidation documents</h3>
-
 
     <p>Once your investment profile is approved you'll be able to become certified as an accredited investor.</p>
 

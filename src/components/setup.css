@@ -91,3 +91,18 @@ description {
   color: hsla(270, 28%, 40%, 1);
   border-radius: 4px;
 }
+
+.setup .faq {
+  margin-top: 1rem;
+  margin-left: 50px;
+  border-left: 5px solid #f9fa9d;
+  padding-left: 1rem;
+  background: #f9fa9d45;
+  padding: 0.5rem 1rem;
+  color: hsla(61, 90%, 20%, 0.98);
+  font-family: helvetica;
+}
+
+.setup .faq a {
+  color: hsla(61, 90%, 10%, 1);
+}

@@ -18,10 +18,12 @@ export default () => (
 
    <p>When you find an investor who you want to invest alongside of, you can apply to join their syndicate.
    </p>
+
+
+
    <p>The application should is fairly short and should focus on three things: your background, your investment goals, and what you like about them.</p>
 
    <description>
-
      <p>Hi Jude,</p>
      <p>
        I'm reaching out because I appreciate your goal of accelerating business and science.
@@ -30,8 +32,10 @@ export default () => (
      <p>As an investor, I hope to support companies that will make tech more accessible and the climate more sustainable.</p>
    </description>
 
-   <p> Checkout Angellist's syndicate resources <a href="https://angel.co/help/syndicates">here</a>.</p>
    <Image alt="Gatsby in Space" filename="syndicate.png" />
+
+   <div className="faq"> Checkout Angellist's syndicate resources <a href="https://angel.co/help/syndicates">here</a>.</div>
+
 
    <h3 id="review-invited-deals">3. Review invited deals</h3>
 
