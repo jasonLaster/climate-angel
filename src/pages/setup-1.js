@@ -20,8 +20,6 @@ const SecondPage = () => {
       <SetupToc />
       <div className="content">
         <h2 id="become-an-investor"> Become an Investor</h2>
-        <p>The first step to creating an account is clicking on the    <a href="angellist.com">Join page</a> in the top right.
-        The first step to creating an account is clicking on the    <a href="angellist.com">Join page</a> in the top right.</p>
 
         <h3 id="create-account">1. Create an Angellist account</h3>
         <p>The first step to creating an account is clicking on the    <a href="angellist.com">Join page</a> in the top right.</p>
