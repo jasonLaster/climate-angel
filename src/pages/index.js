@@ -4,14 +4,6 @@ import Angel from "../components/Angel"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
-    // <h2>Overview</h2>
-    // <h2>Exciting Companies</h2>
-    // <h2>Steps to for getting involved</h2>
-    //   <li>Meet climate investors</li>
-    //   <li>Invest alongside climate angels</li>
-    // <Link to="/page-2/">Getting Started</Link>
-
 function useFetchAngels() {
   return useStaticQuery(graphql`
     query AngelsQuery {
@@ -45,8 +37,8 @@ const IndexPage = () => {
   const { angels } = useFetchAngels()
 
   const headerContent = <>
-    <p>Climate change is triggering the largest economic transformation since the industrial revolution. Startups are pioneering break throughs in clean energy, agriculture, transportation at an incredible pace. </p>
-    <p>But often, on an individual level, the challenges feel insurmountable and the solutions feel out of reach. It doesn’t have to be that way, it is possible to invest in the future today and take concrete actions that create real change. </p>
+    <p>Climate change is fueling the largest economic transformation since the industrial revolution and startups are meeting the challenge with break throughs in clean energy, agriculture, and transportation. </p>
+    <p>But on an individual level, the solutions can feel out of reach. It doesn’t have to feel that way, it is possible to invest in startups today that are addressing the climate crisis head on. </p>
   </>
 
   return <Layout page="home" headerContent={headerContent}>
