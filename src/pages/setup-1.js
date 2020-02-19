@@ -10,8 +10,7 @@ export default () => (
 
     <p>
     Angel investing is inherently risky.
-    For this reason, investors must meet either an income or asset criteria &nbsp;
-    <a href="https://angel.co/help/accreditation/what-is-an-accredited-investor">link</a>.</p>
+    For this reason, investors must meet either an income or asset criteria <a href="https://angel.co/help/accreditation/what-is-an-accredited-investor">link</a>.</p>
 
 
     <p>Investing early can also be satisfying.
@@ -22,8 +21,7 @@ export default () => (
 
     <h3 id="create-account">1. Create an Angellist account</h3>
     <p>
-     <a href="https://angel.co/invest/start">Angellist</a> is the largest platform for angel investing. The first step to creating an account is clicking on the
-     <a href="angellist.com">Join </a> page in the top right.
+     <a href="https://angel.co/invest/start">Angellist</a> is the largest platform for angel investing. The first step to creating an account is clicking on the <a href="angellist.com">Join </a> page in the top right.
     </p>
     <Image alt="Gatsby in Space" filename="sign-up.png" />
 
