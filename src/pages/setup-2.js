@@ -21,7 +21,7 @@ export default () => (
 
 
 
-   <p>The application should is fairly short and should focus on three things: your background, your investment goals, and what you like about them.</p>
+   <p>The application is fairly short and should focus on three things: your background, your investment goals, and what you like about them.</p>
 
    <description>
      <p>Hi Jude,</p>
